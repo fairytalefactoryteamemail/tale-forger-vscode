@@ -1,0 +1,80 @@
+{
+  "keywords": {
+    "if":    { "fa": "اگر",     "en": "if",     "ru": "если",     "ja": "もし" },
+    "else":  { "fa": "وگرنه",   "en": "else",   "ru": "иначе",    "ja": "それ以外" },
+    "while": { "fa": "تاوقتی",  "en": "while",  "ru": "пока",     "ja": "の間" },
+    "for":   { "fa": "برای",    "en": "for",    "ru": "для",      "ja": "のために" },
+    "break": { "fa": "بشکن",    "en": "break",  "ru": "прервать", "ja": "中断" },
+    "continue":{ "fa": "ادامه", "en": "continue","ru": "продолжить","ja": "続行" },
+    "return":{ "fa": "برگردان", "en": "return", "ru": "возврат",  "ja": "返す" },
+    "print": { "fa": "چاپ",     "en": "print",  "ru": "печать",   "ja": "表示" },
+    "length":{ "fa": "طول",     "en": "length", "ru": "длина",    "ja": "長さ" },
+    "int":   { "fa": "عدد",     "en": "int",    "ru": "цел",      "ja": "整数" },
+    "float": { "fa": "اعشار",   "en": "float",  "ru": "вещ",      "ja": "浮動" },
+    "string":{ "fa": "رشته",    "en": "string", "ru": "стр",      "ja": "文字列" },
+    "bool":  { "fa": "بول",     "en": "bool",   "ru": "лог",      "ja": "論理" },
+    "class": { "fa": "کلاس",    "en": "class",  "ru": "класс",    "ja": "クラス" },
+    "func":  { "fa": "تابع",    "en": "func",   "ru": "функ",     "ja": "関数" },
+    "var":   { "fa": "متغیر",   "en": "var",    "ru": "пер",      "ja": "変数" },
+    "this":  { "fa": "این",     "en": "this",   "ru": "это",      "ja": "自身" },
+    "step":  { "fa": "گام",     "en": "step",   "ru": "шаг",      "ja": "ステップ" }
+  },
+  "hover": {
+    "fa": {
+      "int": "### Int32\nعدد صحیح ۳۲ بیتی\n\n**پیش‌فرض:** `0` | **حجم:** ۴ بایت",
+      "float": "### Float32\nعدد اعشاری ۳۲ بیتی\n\n**پیش‌فرض:** `0.0` | **حجم:** ۴ بایت",
+      "string": "### String\nرشته متنی\n\n**پیش‌فرض:** `\"\"` | **حداکثر:** ۲۰۴۸ کاراکتر",
+      "bool": "### Boolean\nدرست/نادرست\n\n**پیش‌فرض:** `false` | **حجم:** ۱ بایت",
+      "sci_decimal": "### ScientificDecimal\nدقت ۴۴ رقم\n\n**حجم:** ۳۲ بایت",
+      "list": "### List\nلیست پویا – پشتیبانی از `[]` و `+`",
+      "dict": "### Dictionary\nدیکشنری کلید-مقدار – پشتیبانی از `[]`",
+      "print": "### print(any)\nچاپ در کنسول – خروجی: void",
+      "length": "### length(string)\nطول رشته – خروجی: int",
+      "if": "### if\nشرط – سبک C: `if () {}` – سبک Python: `if : {}`",
+      "for": "### for\nحلقه با گام هوشمند – `step` اختیاری",
+      "while": "### while\nحلقه – سبک C و Python"
+    },
+    "en": {
+      "int": "### Int32\n32-bit signed integer\n\n**Default:** `0` | **Size:** 4 bytes",
+      "float": "### Float32\n32-bit floating point\n\n**Default:** `0.0` | **Size:** 4 bytes",
+      "string": "### String\nText string\n\n**Default:** `\"\"` | **Max:** 2048 chars",
+      "bool": "### Boolean\nTrue/False\n\n**Default:** `false` | **Size:** 1 byte",
+      "sci_decimal": "### ScientificDecimal\n44-digit precision\n\n**Size:** 32 bytes",
+      "list": "### List\nDynamic list – supports `[]` and `+`",
+      "dict": "### Dictionary\nKey-value dict – supports `[]`",
+      "print": "### print(any)\nPrint to console – Returns: void",
+      "length": "### length(string)\nString length – Returns: int",
+      "if": "### if\nCondition – C style: `if () {}` – Python style: `if : {}`",
+      "for": "### for\nLoop with smart step – `step` optional",
+      "while": "### while\nLoop – C and Python style"
+    },
+    "ru": {
+      "int": "### Int32\n32-битное целое число\n\n**По умолчанию:** `0` | **Размер:** 4 байта",
+      "float": "### Float32\n32-битное с плавающей точкой\n\n**По умолчанию:** `0.0` | **Размер:** 4 байта",
+      "string": "### String\nТекстовая строка\n\n**По умолчанию:** `\"\"` | **Макс:** 2048 символов",
+      "bool": "### Boolean\nИстина/Ложь\n\n**По умолчанию:** `false` | **Размер:** 1 байт",
+      "sci_decimal": "### ScientificDecimal\n44-значная точность\n\n**Размер:** 32 байта",
+      "list": "### List\nДинамический список – `[]` и `+`",
+      "dict": "### Dictionary\nСловарь ключ-значение – `[]`",
+      "print": "### print(any)\nПечать в консоль – Возвращает: void",
+      "length": "### length(string)\nДлина строки – Возвращает: int",
+      "if": "### if\nУсловие – C: `if () {}` – Python: `if : {}`",
+      "for": "### for\nЦикл с умным шагом – `step` опционально",
+      "while": "### while\nЦикл – C и Python стиль"
+    },
+    "ja": {
+      "int": "### Int32\n32ビット整数\n\n**デフォルト:** `0` | **サイズ:** 4バイト",
+      "float": "### Float32\n32ビット浮動小数点数\n\n**デフォルト:** `0.0` | **サイズ:** 4バイト",
+      "string": "### String\n文字列\n\n**デフォルト:** `\"\"` | **最大:** 2048文字",
+      "bool": "### Boolean\n真/偽\n\n**デフォルト:** `false` | **サイズ:** 1バイト",
+      "sci_decimal": "### ScientificDecimal\n44桁精度\n\n**サイズ:** 32バイト",
+      "list": "### List\n動的リスト – `[]` と `+` 対応",
+      "dict": "### Dictionary\nキー値辞書 – `[]` 対応",
+      "print": "### print(any)\nコンソール出力 – 戻り値: void",
+      "length": "### length(string)\n文字列長 – 戻り値: int",
+      "if": "### if\n条件 – C: `if () {}` – Python: `if : {}`",
+      "for": "### for\nスマートステップ – `step` 任意",
+      "while": "### while\nループ – C/Python スタイル"
+    }
+  }
+}

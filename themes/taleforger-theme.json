@@ -1,0 +1,15 @@
+{
+  "name": "Taleforger",
+  "type": "dark",
+  "tokenColors": [
+    {
+      "scope": [
+        "comment.line.double-slash",
+        "comment.block"
+      ],
+      "settings": {
+        "foreground": "#6A9955"
+      }
+    }
+  ]
+}

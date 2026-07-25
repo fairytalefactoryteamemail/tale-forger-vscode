@@ -1,0 +1,248 @@
+{
+  "for loop": {
+    "prefix": "for",
+    "body": "for (int ${1:i} = ${2:0}; ${1:i} < ${3:10};) {\n\t${0}\n}",
+    "description": "For loop with auto-step"
+  },
+  "for loop with step": {
+    "prefix": "fors",
+    "body": "for (int ${1:i} = ${2:0}; ${1:i} < ${3:10}; step ${4:1}) {\n\t${0}\n}",
+    "description": "For loop with manual step"
+  },
+  "if C style": {
+    "prefix": "if",
+    "body": "if (${1:condition}) {\n\t${0}\n}",
+    "description": "If statement (C style)"
+  },
+  "if Python style": {
+    "prefix": "ifp",
+    "body": "if ${1:condition}: {\n\t${0}\n}",
+    "description": "If statement (Python style)"
+  },
+  "if-else": {
+    "prefix": "ife",
+    "body": "if (${1:condition}) {\n\t${2}\n} else {\n\t${0}\n}",
+    "description": "If-else statement"
+  },
+  "while C style": {
+    "prefix": "while",
+    "body": "while (${1:condition}) {\n\t${0}\n}",
+    "description": "While loop (C style)"
+  },
+  "while Python style": {
+    "prefix": "whilep",
+    "body": "while ${1:condition}: {\n\t${0}\n}",
+    "description": "While loop (Python style)"
+  },
+  "function": {
+    "prefix": "func",
+    "body": "func ${1:name}(${2}) -> ${3:type} {\n\t${0}\n}",
+    "description": "Function declaration"
+  },
+  "class": {
+    "prefix": "class",
+    "body": "class ${1:Name} {\n\t${0}\n}",
+    "description": "Class declaration"
+  },
+  "print": {
+    "prefix": "print",
+    "body": "print(\"${1}\");",
+    "description": "Print statement"
+  },
+  "variable int": {
+    "prefix": "int",
+    "body": "int ${1:name} = ${2:0};",
+    "description": "Integer variable"
+  },
+  "variable string": {
+    "prefix": "string",
+    "body": "string ${1:name} = \"${2}\";",
+    "description": "String variable"
+  },
+  "variable float": {
+    "prefix": "float",
+    "body": "float ${1:name} = ${2:0.0};",
+    "description": "Float variable"
+  },
+  "variable bool": {
+    "prefix": "bool",
+    "body": "bool ${1:name} = ${2:false};",
+    "description": "Boolean variable"
+  },
+  "list": {
+    "prefix": "list",
+    "body": "list ${1:name} = [${2}];",
+    "description": "List variable"
+  },
+  "dict": {
+    "prefix": "dict",
+    "body": "dict ${1:name} = {\n\t${2}\n};",
+    "description": "Dictionary variable"
+  },
+
+  "if fa": {
+    "prefix": "اگر",
+    "body": "اگر (${1:condition}) {\n\t${0}\n}",
+    "description": "شرط گذاری به فارسی"
+  },
+  "if ru": {
+    "prefix": "если",
+    "body": "если (${1:condition}) {\n\t${0}\n}",
+    "description": "If statement (Russian)"
+  },
+  "if ja": {
+    "prefix": "もし",
+    "body": "もし (${1:condition}) {\n\t${0}\n}",
+    "description": "If statement (Japanese)"
+  },
+  "else fa": {
+    "prefix": "وگرنه",
+    "body": "وگرنه {\n\t${0}\n}",
+    "description": "Else block (Persian)"
+  },
+  "else ru": {
+    "prefix": "иначе",
+    "body": "иначе {\n\t${0}\n}",
+    "description": "Else block (Russian)"
+  },
+  "else ja": {
+    "prefix": "それ以外",
+    "body": "それ以外 {\n\t${0}\n}",
+    "description": "Else block (Japanese)"
+  },
+  "while fa": {
+    "prefix": "تاوقتی",
+    "body": "تاوقتی (${1:condition}) {\n\t${0}\n}",
+    "description": "While loop (Persian)"
+  },
+  "while ru": {
+    "prefix": "пока",
+    "body": "пока (${1:condition}) {\n\t${0}\n}",
+    "description": "While loop (Russian)"
+  },
+  "while ja": {
+    "prefix": "の間",
+    "body": "の間 (${1:condition}) {\n\t${0}\n}",
+    "description": "While loop (Japanese)"
+  },
+  "for fa": {
+    "prefix": "برای",
+    "body": "برای (عدد ${1:i} = ${2:0}; ${1:i} < ${3:10};) {\n\t${0}\n}",
+    "description": "For loop (Persian)"
+  },
+  "for ru": {
+    "prefix": "для",
+    "body": "для (цел ${1:i} = ${2:0}; ${1:i} < ${3:10};) {\n\t${0}\n}",
+    "description": "For loop (Russian)"
+  },
+  "for ja": {
+    "prefix": "のために",
+    "body": "のために (整数 ${1:i} = ${2:0}; ${1:i} < ${3:10};) {\n\t${0}\n}",
+    "description": "For loop (Japanese)"
+  },
+  "func fa": {
+    "prefix": "تابع",
+    "body": "تابع ${1:name}(${2}) -> ${3:type} {\n\t${0}\n}",
+    "description": "Function declaration (Persian)"
+  },
+  "func ru": {
+    "prefix": "функ",
+    "body": "функ ${1:name}(${2}) -> ${3:type} {\n\t${0}\n}",
+    "description": "Function declaration (Russian)"
+  },
+  "func ja": {
+    "prefix": "関数",
+    "body": "関数 ${1:name}(${2}) -> ${3:type} {\n\t${0}\n}",
+    "description": "Function declaration (Japanese)"
+  },
+  "class fa": {
+    "prefix": "کلاس",
+    "body": "کلاس ${1:Name} {\n\t${0}\n}",
+    "description": "Class declaration (Persian)"
+  },
+  "class ru": {
+    "prefix": "класс",
+    "body": "класс ${1:Name} {\n\t${0}\n}",
+    "description": "Class declaration (Russian)"
+  },
+  "class ja": {
+    "prefix": "クラス",
+    "body": "クラス ${1:Name} {\n\t${0}\n}",
+    "description": "Class declaration (Japanese)"
+  },
+  "print fa": {
+    "prefix": "چاپ",
+    "body": "چاپ(\"${1}\");",
+    "description": "Print statement (Persian)"
+  },
+  "print ru": {
+    "prefix": "печать",
+    "body": "печать(\"${1}\");",
+    "description": "Print statement (Russian)"
+  },
+  "print ja": {
+    "prefix": "表示",
+    "body": "表示(\"${1}\");",
+    "description": "Print statement (Japanese)"
+  },
+  "int var fa": {
+    "prefix": "عدد",
+    "body": "عدد ${1:name} = ${2:0};",
+    "description": "Integer variable (Persian)"
+  },
+  "int var ru": {
+    "prefix": "цел",
+    "body": "цел ${1:name} = ${2:0};",
+    "description": "Integer variable (Russian)"
+  },
+  "int var ja": {
+    "prefix": "整数",
+    "body": "整数 ${1:name} = ${2:0};",
+    "description": "Integer variable (Japanese)"
+  },
+  "string var fa": {
+    "prefix": "رشته",
+    "body": "رشته ${1:name} = \"${2}\";",
+    "description": "String variable (Persian)"
+  },
+  "string var ru": {
+    "prefix": "стр",
+    "body": "стр ${1:name} = \"${2}\";",
+    "description": "String variable (Russian)"
+  },
+  "string var ja": {
+    "prefix": "文字列",
+    "body": "文字列 ${1:name} = \"${2}\";",
+    "description": "String variable (Japanese)"
+  },
+  "float var fa": {
+    "prefix": "اعشار",
+    "body": "اعشار ${1:name} = ${2:0.0};",
+    "description": "Float variable (Persian)"
+  },
+  "float var ru": {
+    "prefix": "вещ",
+    "body": "вещ ${1:name} = ${2:0.0};",
+    "description": "Float variable (Russian)"
+  },
+  "float var ja": {
+    "prefix": "浮動",
+    "body": "浮動 ${1:name} = ${2:0.0};",
+    "description": "Float variable (Japanese)"
+  },
+  "bool var fa": {
+    "prefix": "بول",
+    "body": "بول ${1:name} = ${2:false};",
+    "description": "Boolean variable (Persian)"
+  },
+  "bool var ru": {
+    "prefix": "лог",
+    "body": "лог ${1:name} = ${2:false};",
+    "description": "Boolean variable (Russian)"
+  },
+  "bool var ja": {
+    "prefix": "論理",
+    "body": "論理 ${1:name} = ${2:false};",
+    "description": "Boolean variable (Japanese)"
+  }
+}

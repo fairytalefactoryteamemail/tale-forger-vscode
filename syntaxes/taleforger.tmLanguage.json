@@ -1,0 +1,65 @@
+{
+  "scopeName": "source.tafo",
+  "patterns": [
+    {
+      "name": "comment.line.double-slash",
+      "match": "//.*$"
+    },
+    {
+      "name": "comment.block",
+      "begin": "/\\*",
+      "end": "\\*/"
+    },
+    {
+      "name": "string.quoted.double",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        {
+          "name": "constant.character.escape",
+          "match": "\\\\."
+        }
+      ]
+    },
+    {
+      "name": "constant.numeric",
+      "match": "\\b[0-9]+(\\.[0-9]+)?\\b"
+    },
+    {
+      "name": "constant.language.boolean",
+      "match": "\\b(true|false)\\b"
+    },
+    {
+      "name": "keyword.control",
+      "match": "\\b(if|else|while|for|break|continue|return|اگر|وگرنه|تاوقتی|برای|بشکن|ادامه|برگردان|если|иначе|пока|для|прервать|продолжить|возврат|もし|それ以外|の間|のために|中断|続行|返す)\\b"
+    },
+    {
+      "name": "keyword.other",
+      "match": "\\b(class|func|var|this|step|new|کلاس|تابع|متغیر|این|گام|класс|функ|пер|это|шаг|クラス|関数|変数|自身|ステップ)\\b"
+    },
+    {
+      "name": "storage.type",
+      "match": "\\b(int|float|string|bool|sci_decimal|list|dict|void|any|عدد|اعشار|رشته|بولین|цел|вещ|стр|лог|整数|浮動|文字列|論理)\\b"
+    },
+    {
+      "name": "support.function.builtin",
+      "match": "\\b(print|length|چاپ|طول|печать|длина|表示|長さ)\\b"
+    },
+    {
+      "name": "entity.name.function",
+      "match": "\\b(func|تابع|функ|関数)\\s+([a-zA-Z_][a-zA-Z0-9_]*)"
+    },
+    {
+      "name": "entity.name.class",
+      "match": "\\b(class|کلاس|класс|クラス)\\s+([a-zA-Z_][a-zA-Z0-9_]*)"
+    },
+    {
+      "name": "variable.other",
+      "match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\s*="
+    },
+    {
+      "name": "keyword.operator",
+      "match": "(==|!=|<=|>=|&&|\\|\\||[+\\-*/%<>!=])"
+    }
+  ]
+}

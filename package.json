@@ -1,0 +1,125 @@
+{
+  "name": "taleforger",
+  "displayName": "Tale Forger",
+  "description": "Official Visual Studio Code extension for the Tale Forger programming language with syntax highlighting, IntelliSense, snippets, and development tools.",
+  "version": "0.2.0",
+  "publisher": "taleforger",
+  "license": "MIT",
+  "icon": "extension/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fairytalefactoryteamemail/tale-forger-vscode.git"
+  },
+
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+
+  "categories": [
+    "Programming Languages"
+  ],
+
+  "activationEvents": [
+    "onLanguage:taleforger"
+  ],
+
+  "main": "./dist/extension.js",
+
+  "contributes": {
+    "languages": [
+      {
+        "id": "taleforger",
+        "aliases": [
+          "Tale Forger",
+          "tafo"
+        ],
+        "extensions": [
+          ".tafo"
+        ],
+        "icon": {
+          "light": "./media/taleforger-icon.svg",
+          "dark": "./media/taleforger-icon.svg"
+        },
+        "configuration": "./language-configuration.json"
+      }
+    ],
+
+    "grammars": [
+      {
+        "language": "taleforger",
+        "scopeName": "source.tafo",
+        "path": "./syntaxes/taleforger.tmLanguage.json"
+      }
+    ],
+
+    "snippets": [
+      {
+        "language": "taleforger",
+        "path": "./snippets/taleforger.json"
+      }
+    ],
+
+    "commands": [
+      {
+        "command": "taleforger.showPanel",
+        "title": "Tale Forger",
+        "icon": "$(symbol-misc)"
+      },
+      {
+        "command": "taleforger.run",
+        "title": "Run Tale Forger File",
+        "icon": "$(play)"
+      },
+      {
+        "command": "taleforger.newFromTemplate",
+        "title": "Tale Forger Template"
+      },
+      {
+        "command": "taleforger.build",
+        "title": "Build Tale Forger File",
+        "icon": "$(gear)"
+      },
+      {
+        "command": "taleforger.newFile",
+        "title": "New Tale Forger File",
+        "icon": "$(new-file)"
+      },
+      {
+        "command": "taleforger.help",
+        "title": "Tale Forger Help",
+        "icon": "$(question)"
+      }
+    ],
+
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "taleforger-sidebar",
+          "title": "Tale Forger",
+          "icon": "./media/taleforger-icon.svg"
+        }
+      ]
+    },
+
+    "views": {
+      "taleforger-sidebar": [
+        {
+          "id": "taleforger.panel",
+          "name": "Tools",
+          "type": "webview"
+        }
+      ]
+    }
+  },
+
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.3.0"
+  }
+}
