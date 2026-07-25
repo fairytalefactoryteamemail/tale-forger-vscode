@@ -1,8 +1,10 @@
 # Tale Forger Extension for VS Code
+
 <p align="center">
   <b>[ <a href="#persian">فارسی</a> ] | [ <a href="#english">English</a> ] | [ <a href="#russian">Русский</a> ] | [ <a href="#japanese">日本語</a> ]</b>
 </p>
 
+<a id="persian"></a>
 ## 🎨 Persian / فارسی
 
 افزونهٔ Tale Forger محیطی کامل و قدرتمند برای توسعه با زبان برنامه‌نویسی نوع‌امن .tafo در Visual Studio Code فراهم می‌کند. این نسخه (MVP) با هدف ارائه یک تجربه کاربری بی‌نقص و بومی‌سازی‌شده توسعه یافته است.
@@ -54,6 +56,8 @@ print(calc.multiply(5));   # خروجی: 50
 
 فایل را انتخاب کرده و از کدنویسی با Tale Forger لذت ببرید!
 
+
+<a id="english"></a>
 ## 🌐 English
 The Tale Forger extension provides a complete and powerful development environment for the type-safe .tafo programming language in Visual Studio Code.
 
@@ -102,6 +106,7 @@ Download the extension .vsix file.
 
 Open VS Code Extensions view, click on the three dots (...) at the top, and select Install from VSIX....
 
+<a id="russian"></a>
 ## 🇷🇺 Russian / Русский
 Расширение Tale Forger предоставляет полную и мощную среду разработки для языка программирования со строгой типизацией .tafo в Visual Studio Code.
 
@@ -143,6 +148,8 @@ print(calc.multiply(5));   # Результат: 50
 
 Прямой запуск: Сохранение и выполнение файла .tafo в терминале VS Code с помощью команды taleforger.
 
+
+<a id="japanese"></a>
 ## 🇯🇵 Japanese / 日本語
 Tale Forger 拡張機能は、Visual Studio Code で型安全なプログラミング言語 .tafo 用の完全で強力な開発環境を提供します。
 
