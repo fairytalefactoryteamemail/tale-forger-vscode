@@ -1,25 +1,24 @@
 # Tale Forger Extension for VS Code
 
 <p align="center">
-  <b>[ <a href="#-persianfarsi">فارسی</a> ] | [ <a href="#-english">English</a> ] | [ <a href="#-russianрусский">Русский</a> ] | [ <a href="#-japanese日本語">日本語</a> ]</b>
+  <b>[ <a href="#persian--فارسی">فارسی</a> ] | [ <a href="#english">English</a> ] | [ <a href="#russian--русский">Русский</a> ] | [ <a href="#japanese--日本語">日本語</a> ]</b>
 </p>
-
----
 
 ## 🎨 Persian / فارسی
 
-افزونهٔ **Tale Forger** محیطی کامل و قدرتمند برای توسعه با زبان برنامه‌نویسی نوع‌امن `.tafo` در Visual Studio Code فراهم می‌کند. این نسخه (MVP) با هدف ارائه یک تجربه کاربری بی‌نقص و بومی‌سازی‌شده توسعه یافته است.
+افزونهٔ Tale Forger محیطی کامل و قدرتمند برای توسعه با زبان برنامه‌نویسی نوع‌امن .tafo در Visual Studio Code فراهم می‌کند. این نسخه (MVP) با هدف ارائه یک تجربه کاربری بی‌نقص و بومی‌سازی‌شده توسعه یافته است.
 
-> **توجه:** ۴ زبان پشتیبانی‌شده در این نسخه (فارسی، انگلیسی، روسی و ژاپنی) به عنوان نسخه آزمایشی (تستی) ارائه شده‌اند. 
+توجه: ۴ زبان پشتیبانی‌شده در این نسخه (فارسی، انگلیسی، روسی و ژاپنی) به عنوان نسخه آزمایشی (تستی) ارائه شده‌اند.
 
-### 💡 نمونه کد (`.tafo`)
-```tafo
+💡 نمونه کد (.tafo)
+Code snippet
 # تعریف متغیرها و انواع داده پایه
 int age = 25;
 string name = "امیر";
 print("سلام " + name + "!");
 
 # تعریف یک کلاس و متد
+```tafo
 class Calculator {
     int factor;
 
@@ -31,6 +30,9 @@ class Calculator {
 Calculator calc = Calculator();
 calc.factor = 10;
 print(calc.multiply(5));   # خروجی: 50
+```
+
+
 ✨ ویژگی‌های کلیدی
 رنگ‌آمیزی کامل کد (Syntax Highlighting): رنگ‌آمیزی دقیق کلیدواژه‌ها، انواع داده، رشته‌ها، کامنت‌های سبز (#6A9955)، توابع و کلاس‌ها.
 
@@ -53,7 +55,7 @@ print(calc.multiply(5));   # خروجی: 50
 
 فایل را انتخاب کرده و از کدنویسی با Tale Forger لذت ببرید!
 
-🌐 English
+## 🌐 English
 The Tale Forger extension provides a complete and powerful development environment for the type-safe .tafo programming language in Visual Studio Code.
 
 Note: The 4 supported languages (English, Persian, Russian, and Japanese) are currently provided as a test/preview release.
@@ -61,6 +63,8 @@ Note: The 4 supported languages (English, Persian, Russian, and Japanese) are cu
 💡 Example (.tafo)
 Code snippet
 # Define variables and basic data types
+
+```tafo
 int age = 25;
 string name = "Amir";
 print("Hello " + name + "!");
@@ -77,6 +81,8 @@ class Calculator {
 Calculator calc = Calculator();
 calc.factor = 10;
 print(calc.multiply(5));   # Output: 50
+
+```
 ✨ Key Features
 Syntax Highlighting: Full colorization for keywords, types, strings, green comments (#6A9955), functions, and classes.
 
@@ -97,7 +103,7 @@ Download the extension .vsix file.
 
 Open VS Code Extensions view, click on the three dots (...) at the top, and select Install from VSIX....
 
-🇷🇺 Russian / Русский
+## 🇷🇺 Russian / Русский
 Расширение Tale Forger предоставляет полную и мощную среду разработки для языка программирования со строгой типизацией .tafo в Visual Studio Code.
 
 Примечание: 4 поддерживаемых языка (русский, английский, персидский и японский) в настоящее время являются тестовыми.
@@ -109,6 +115,27 @@ Open VS Code Extensions view, click on the three dots (...) at the top, and sele
 
 Динамический синтаксис: Изменение языка в панели мгновенно переводит все ключевые слова и функции в файле .tafo.
 
+```tafo
+
+# Объявление переменных и базовых типов данных
+int age = 25;
+string name = "Амир";
+print("Привет, " + name + "!");
+
+# Определение класса и функции
+class Calculator {
+    int factor;
+
+    func multiply(int x) -> int {
+        return this.factor * x;
+    }
+}
+
+Calculator calc = Calculator();
+calc.factor = 10;
+print(calc.multiply(5));   # Результат: 50
+
+```
 Умный автозаполнение (IntelliSense): Интеллектуальные подсказки для ключевых слов, типов, функций и констант.
 
 Сниппеты кода: Быстрый ввод конструкций (циклы, условия, функции, классы) с помощью клавиши Tab.
@@ -117,7 +144,7 @@ Open VS Code Extensions view, click on the three dots (...) at the top, and sele
 
 Прямой запуск: Сохранение и выполнение файла .tafo в терминале VS Code с помощью команды taleforger.
 
-🇯🇵 Japanese / 日本語
+## 🇯🇵 Japanese / 日本語
 Tale Forger 拡張機能は、Visual Studio Code で型安全なプログラミング言語 .tafo 用の完全で強力な開発環境を提供します。
 
 注意: 現在サポートされている4つの言語（日本語、英語、ペルシャ語、ロシア語）はテスト版として提供されています。
@@ -129,6 +156,27 @@ Tale Forger 拡張機能は、Visual Studio Code で型安全なプログラミ�
 
 動的多言語構文: パネルで言語を変更すると、再コンパイルなしで .tafo ファイル内のキーワードや関数が即座に翻訳されます。
 
+
+```tafo
+# 変数と基本データ型の定義
+int age = 25;
+string name = "アミル";
+print("こんにちは、" + name + "！");
+
+# クラスと関数の定義
+class Calculator {
+    int factor;
+
+    func multiply(int x) -> int {
+        return this.factor * x;
+    }
+}
+
+Calculator calc = Calculator();
+calc.factor = 10;
+print(calc.multiply(5));   # 出力: 50
+```
+
 スマートIntelliSense: 現在の言語に基づいたキーワード、型、関数、定数のスマート補完。
 
 コードスニペット: Tab キーを使用して、ループ、条件分岐、関数、クラスなどの構造を素早く挿入できます。
@@ -137,12 +185,12 @@ Slidarツールパネル: 実行、ビルド、新規ファイル、ヘルプボ
 
 直接実行: taleforger コマンドを使用して、VS Code ターミナルで .tafo ファイルを直接保存および実行します。
 
-🌍 Adding New Languages & Contributing / افزودن زبان‌های جدید و مشارکت
+## 🌍 Adding New Languages & Contributing / افزودن زبان‌های جدید و مشارکت
 The core engine currently has robust support for English, while other languages (like Russian and Japanese) are undergoing refinement.
 
 توجه برای توسعه‌دهندگان: افزودن زبان‌های انسانی جدید یا رفع خطاهای ساختاری ریز (مثل کاراکترهای خاص در برخی زبان‌ها) در هستهٔ کامپایلر کاملاً امکان‌پذیر است، اما از آنجا که نیازمند توسعه‌ی عمیق‌تر در هسته و انجام تست‌های دقیق است، فرآیندی زمان‌بر محسوب می‌شود. در صورت نیاز به زبان‌های دیگر، از طریق گیت‌هاب درخواست خود را ثبت کنید!
 
-📬 Contact & Links / راه‌های ارتباطی
-📺 YouTube: FaityTaleFactory
+## 📬 Contact & Links 
+## 📺 YouTube: FaityTaleFactory
 
-📱 Telegram: Unity_coder_1381
+## 📱 Telegram: Unity_coder_1381
