@@ -3,7 +3,7 @@
   "displayName": "Tale Forger",
   "description": "Official Visual Studio Code extension for the Tale Forger programming language with syntax highlighting, IntelliSense, snippets, and development tools.",
   "version": "0.1.0",
-  "publisher": "taleforger",
+  "publisher": "fairytalefactory",
   "license": "MIT",
   "icon": "extension/icon.png",
   "repository": {
