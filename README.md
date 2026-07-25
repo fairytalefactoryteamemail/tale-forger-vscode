@@ -1,7 +1,7 @@
 # Tale Forger Extension for VS Code
 
 <p align="center">
-  <b>[ <a href="#user-content-persian--فارسی">فارسی</a> ] | [ <a href="#user-content-english">English</a> ] | [ <a href="#user-content-russian--русский">Русский</a> ] | [ <a href="#user-content-japanese--日本語">日本語</a> ]</b>
+  <b>[ <a href="/fairytalefactoryteamemail/tale-forger-vscode/blob/main/README.md#user-content-persian--فارسی">فارسی</a> ] | [ <a href="/fairytalefactoryteamemail/tale-forger-vscode/blob/main/README.md#user-content-english">English</a> ] | [ <a href="/fairytalefactoryteamemail/tale-forger-vscode/blob/main/README.md#user-content-russian--русский">Русский</a> ] | [ <a href="/fairytalefactoryteamemail/tale-forger-vscode/blob/main/README.md#user-content-japanese--日本語">日本語</a> ]</b>
 </p>
 
 ## 🎨 Persian / فارسی
